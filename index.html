@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+    
+            <div class="billTotalInputDiv">
+                <form class="formStyle">
+                    <label for="billTotalInput">Bill Total(Rs)</label>
+                    <input type="text" name="billTotalInput" id="billTotalInput" class="inputStyle" value="0">
+                </form>
+            </div>
+    
+            <div class="tipInputDiv">
+                <form class="formStyle">
+                    <label for="tipInput">Tip%</label>
+                    <input type="text" name="billTotalInput" id="tipInput" class="inputStyle" value="0">
+                </form>
+            </div>
+    
+            <div class="perPersonTotalDiv">
+                <div class="peopleDiv">
+                    <p id="p1">People</p>
+                    <div class="numberOfPeopleDiv">
+                        <button class="btn" id="btn1">+</button>
+                        <p id="numberOfPeople">1</p>
+                        <button class="btn" id="btn2">-</button>
+                    </div>
+                </div>
+
+                <div class="pptInnerDiv">
+                    <p id="p2">Total Per Person</p>
+                    <p id="result">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
